@@ -1,31 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.amc"
-       name="AMC"
-       version="1.0.2"
-       provider-name="t1m">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">AMC TV</summary>
-    <description lang="en">Whether it's your favorite films or acclaimed original programming, AMC always brings you Something More.</description>
-    <disclaimer lang="en">Feel free to use this script. For information visit the wiki.</disclaimer>
-    <platform>all</platform>
-    <language>en</language>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-    <forum></forum>
-    <website>http://www.amctv.com/</website>
-    <email></email>
-    <source>https://github.com/learningit/plugin.video.amc/</source>
-    <broken>Add-on no longer functions</broken>
-  </extension>
-</addon>
-
 <addon id="plugin.video.bravo"
        name="Bravo"
        version="1.0.5"
@@ -76,16 +50,179 @@
   </extension>
 </addon>
 
-<addon id="repository.t1m.addons" name="t1m Add-on Repository" version="1.0.2" provider-name="t1m">
-	<extension point="xbmc.addon.repository" name="Offical t1m Add-on Repository">
-		<info compressed="false">https://raw.github.com/learningit/repository.t1m.addons/master/addons.xml</info>
-		<checksum>https://raw.github.com/learningit/repository.t1m.addons/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.github.com/learningit/repository.t1m.addons/master/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Install  add-ons from github.com/learningit</summary>
-		<description>Releases of my t1m addons - some may be under development</description>
-		<platform>all</platform>
-	</extension>
+<addon id="plugin.video.cbsn"
+       name="CBSN News Live"
+       version="1.0.3"
+       provider-name="t1m">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">CBSN News Live</summary>
+    <description lang="en">CBSN News Live. CBSN News video feed with upto 1080 resolution.</description>
+    <disclaimer lang="en">Feel free to use this script. For information visit the wiki.</disclaimer>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>http://forum.kodi.tv/showthread.php?tid=216234</forum>
+    <website>www.cbsn.com</website>
+    <email></email>
+    <source>https://github.com/learningit/plugin.video.cbsn</source>
+  </extension>
+</addon>
+
+<addon id="plugin.video.cook"
+       name="Cooking Channel"
+       version="1.0.3"
+       provider-name="t1m">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Cooking Channel</summary>
+    <description lang="en">Cooking Channel</description>
+    <disclaimer lang="en">Feel free to use this script. For information visit the wiki.</disclaimer>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>http://forum.kodi.tv/showthread.php?tid=224107</forum>
+    <website>http://www.cookingchanneltv.com/</website>
+    <email></email>
+    <source>https://github.com/learningit/plugin.video.cook/</source>
+  </extension>
+</addon>
+
+<addon id="plugin.video.diy"
+       name="DIY Network"
+       version="1.0.9"
+       provider-name="t1m">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">DIY Network</summary>
+    <description lang="en">From remodeling to gardening to crafts DIYNetwork.com provides resources and knowledge through step-by-step photos and videos</description>
+    <disclaimer lang="en">Feel free to use this script. For information visit the wiki.</disclaimer>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>http://forum.kodi.tv/showthread.php?tid=222451</forum>
+    <website>http://www.diynetwork.com/</website>
+    <email></email>
+    <source>https://github.com/learningit/plugin.video.diy/</source>
+  </extension>
+</addon>
+
+<addon id="plugin.video.esquire"
+       name="Esquire TV"
+       version="1.0.4"
+       provider-name="t1m">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Esquire TV Video Addon</summary>
+    <description lang="en">Esquire TV video addon.</description>
+    <disclaimer lang="en">Feel free to use this script. For information visit the wiki.</disclaimer>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>http://forum.kodi.tv/showthread.php?tid=224739</forum>
+    <website>http://tv.esquire.com/now/</website>
+    <email></email>
+    <source>https://github.com/learningit/plugin.video.esquire/</source>
+  </extension>
+</addon>
+
+<addon id="plugin.video.foodnetwork"
+       name="Food Network"
+       version="2.1.13"
+       provider-name="t1m">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Food Network Video Addon</summary>
+    <description lang="en">Play videos from the Food Network</description>
+    <disclaimer lang="en">Feel free to use this script. For information visit the wiki.</disclaimer>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>http://forum.kodi.tv/showthread.php?tid=224195</forum>
+    <website>www.foodnetwork.com</website>
+    <email></email>
+    <source>https://github.com/learningit/plugin.video.foodnetwork/</source>
+  </extension>
+</addon>
+
+<addon id="plugin.video.fox.news"
+       name="Fox News"
+       version="4.0.4"
+       provider-name="t1m,divingmule">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.beautifulsoup4" version="4.3.1"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Fox News</summary>
+        <description>
+            Watch videos from video.foxnews.com &amp; video.foxbusiness.com.
+        </description>
+        <platform>all</platform>
+        <language>en</language>
+        <forum>http://forum.xbmc.org/showthread.php?tid=57175</forum>
+        <email></email>
+        <source>https://github.com/learningit/plugin.video.fox.news</source>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <website>http://video.foxnews.com</website>
+    </extension>
+</addon>
+
+<addon id="plugin.video.gq"
+       name="GQ"
+       version="1.0.7"
+       provider-name="t1m">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">GQ Magazine HD Video Addon</summary>
+    <description lang="en">GQ (formerly Gentlemen's Quarterly) is an American monthly men's magazine focusing on fashion, style, and culture for men, through articles on food, movies, fitness, sex, music, travel, sports, technology, and books.</description>
+    <disclaimer lang="en">Feel free to use this script. For information visit the wiki.</disclaimer>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>http://forum.xbmc.org/showthread.php?tid=193395</forum>
+    <website>video.gq.com</website>
+    <email></email>
+    <source>https://github.com/learningit/plugin.video.gq/</source>
+  </extension>
 </addon>
 </addons>
