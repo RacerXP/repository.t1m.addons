@@ -225,4 +225,143 @@
     <source>https://github.com/learningit/plugin.video.gq/</source>
   </extension>
 </addon>
+
+<addon id="plugin.video.hallmark"
+       name="Hallmark Channel"
+       version="1.0.1"
+       provider-name="t1m">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Hallmark Channel</summary>
+    <description lang="en">Hallmark Channel. The channel's programming is primarily targeted at families, and features a mix of television movies and miniseries, original and acquired television series, and lifestyle programs.</description>
+    <disclaimer lang="en">Feel free to use this script. For information visit the wiki.</disclaimer>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum></forum>
+    <website>http://www.hallmarkchanneleverywhere.com/</website>
+    <email></email>
+    <source>https://github.com/learningit/plugin.video.hallmark/</source>
+  </extension>
+</addon>
+
+<addon id="plugin.video.hgtv"
+       name="HGTV"
+       version="2.1.2"
+       provider-name="t1m">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">HGTV Video Addon</summary>
+    <description lang="en">Play videos from the HGTV Network</description>
+    <disclaimer lang="en">Feel free to use this script. For information visit the wiki.</disclaimer>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>http://forum.xbmc.org/showthread.php?tid=97018</forum>
+    <website>www.hgtv.com</website>
+    <email></email>
+    <source>https://github.com/learningit/plugin.video.hgtv/</source>
+  </extension>
+</addon>
+
+<addon id="plugin.video.i24News"
+       name="i24 News"
+       version="1.0.4"
+       provider-name="t1m">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.pyamf" version="0.6.2"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">i24News XBMC Addon</summary>
+    <description lang="en">i24News is an international 24-hour news and current affairs television channel based in Jaffa Port, Tel Aviv, Israel. It broadcasts in English, French and Arabic.</description>
+    <disclaimer lang="en">Feel free to use this script. For information visit the wiki.</disclaimer>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>http://forum.xbmc.org/showthread.php?tid=187224</forum>
+    <website>http://www.i24news.tv/en/</website>
+    <email></email>
+    <source>https://github.com/learningit/plugin.video.i24News</source>
+  </extension>
+</addon>
+
+<addon id="plugin.video.linktv"
+       name="LinkTV.org"
+       version="1.0.2"
+       provider-name="t1m">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">LinkTV</summary>
+    <description lang="en">Link TV broadcasts programs that engage, educate and activate viewers to become involved in the world.</description>
+    <disclaimer lang="en">Feel free to use this script. For information visit the wiki.</disclaimer>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum></forum>
+    <website>video.thinktv.org</website>
+    <email></email>
+    <source>https://github.com/learningit/plugin.video.linktv/</source>
+  </extension>
+</addon>
+
+<addon id="plugin.video.mediacorp"
+       name="Mediacorp Singapore"
+       version="1.5.3"
+       provider-name="t1m">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Mediacorp Singapore</summary>
+    <description lang="en">Mediacorp Singapore - Toggle.sg version. To display Chinese correctly, choose Arial Font under Settings-Appearance-Skin-Font</description>
+    <disclaimer lang="en">Feel free to use this script. For information visit the wiki.</disclaimer>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>http://forum.xbmc.org/showthread.php?tid=173754</forum>
+    <website>www.toggle.sg</website>
+    <email></email>
+    <source>https://github.com/learningit/plugin.video.mediacorp</source>
+  </extension>
+</addon>
+
+<addon id="repository.t1m.addons" name="t1m Add-on Repository" version="1.0.2" provider-name="t1m">
+	<extension point="xbmc.addon.repository" name="Offical t1m Add-on Repository">
+		<info compressed="true">https://raw.github.com/learningit/repository.t1m.addons/master/addons.xml</info>
+		<checksum>https://raw.github.com/learningit/repository.t1m.addons/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.github.com/learningit/repository.t1m.addons/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install  add-ons from github.com/learningit</summary>
+		<description>Releases of my t1m addons - some may be under development</description>
+		<platform>all</platform>
+	</extension>
+</addon>
 </addons>
