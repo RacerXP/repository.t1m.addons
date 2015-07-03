@@ -1,0 +1,931 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.amc"
+       name="AMC"
+       version="1.0.2"
+       provider-name="t1m">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">AMC TV</summary>
+    <description lang="en">Whether it's your favorite films or acclaimed original programming, AMC always brings you Something More.</description>
+    <disclaimer lang="en">Feel free to use this script. For information visit the wiki.</disclaimer>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum></forum>
+    <website>http://www.amctv.com/</website>
+    <email></email>
+    <source>https://github.com/learningit/plugin.video.amc/</source>
+    <broken>Add-on no longer functions</broken>
+  </extension>
+</addon>
+
+<addon id="plugin.video.bravo"
+       name="Bravo"
+       version="1.0.5"
+       provider-name="t1m">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Bravo Video Addon</summary>
+    <description lang="en">Bravo TV video addon.</description>
+    <disclaimer lang="en">Feel free to use this script. For information visit the wiki.</disclaimer>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>http://forum.kodi.tv/showthread.php?tid=224738</forum>
+    <website>www.bravotv.com</website>
+    <email></email>
+    <source>https://github.com/learningit/plugin.video.bravo/</source>
+  </extension>
+</addon>
+
+<addon id="plugin.video.cbc"
+       name="Canadian Broadcasting Corporation"
+       version="1.0.11"
+       provider-name="t1m">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">CBC Videos</summary>
+    <description lang="en">CBC Videos. CBC.ca is Canada's Online Information Source. Comprehensive web site for news, entertainment, sports, and business.</description>
+    <disclaimer lang="en">Feel free to use this script. For information visit the wiki.</disclaimer>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum></forum>
+    <website>http://www.cbc.ca/player/</website>
+    <email></email>
+    <source>https://github.com/learningit/plugin.video.cbc/</source>
+  </extension>
+</addon>
+
+<addon id="plugin.video.cbsn"
+       name="CBSN News Live"
+       version="1.0.3"
+       provider-name="t1m">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">CBSN News Live</summary>
+    <description lang="en">CBSN News Live. CBSN News video feed with upto 1080 resolution.</description>
+    <disclaimer lang="en">Feel free to use this script. For information visit the wiki.</disclaimer>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>http://forum.kodi.tv/showthread.php?tid=216234</forum>
+    <website>www.cbsn.com</website>
+    <email></email>
+    <source>https://github.com/learningit/plugin.video.cbsn</source>
+  </extension>
+</addon>
+
+<addon id="plugin.video.cook"
+       name="Cooking Channel"
+       version="1.0.3"
+       provider-name="t1m">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Cooking Channel</summary>
+    <description lang="en">Cooking Channel</description>
+    <disclaimer lang="en">Feel free to use this script. For information visit the wiki.</disclaimer>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>http://forum.kodi.tv/showthread.php?tid=224107</forum>
+    <website>http://www.cookingchanneltv.com/</website>
+    <email></email>
+    <source>https://github.com/learningit/plugin.video.cook/</source>
+  </extension>
+</addon>
+
+<addon id="plugin.video.diy"
+       name="DIY Network"
+       version="1.0.9"
+       provider-name="t1m">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">DIY Network</summary>
+    <description lang="en">From remodeling to gardening to crafts DIYNetwork.com provides resources and knowledge through step-by-step photos and videos</description>
+    <disclaimer lang="en">Feel free to use this script. For information visit the wiki.</disclaimer>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>http://forum.kodi.tv/showthread.php?tid=222451</forum>
+    <website>http://www.diynetwork.com/</website>
+    <email></email>
+    <source>https://github.com/learningit/plugin.video.diy/</source>
+  </extension>
+</addon>
+
+<addon id="plugin.video.esquire"
+       name="Esquire TV"
+       version="1.0.4"
+       provider-name="t1m">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Esquire TV Video Addon</summary>
+    <description lang="en">Esquire TV video addon.</description>
+    <disclaimer lang="en">Feel free to use this script. For information visit the wiki.</disclaimer>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>http://forum.kodi.tv/showthread.php?tid=224739</forum>
+    <website>http://tv.esquire.com/now/</website>
+    <email></email>
+    <source>https://github.com/learningit/plugin.video.esquire/</source>
+  </extension>
+</addon>
+
+<addon id="plugin.video.foodnetwork"
+       name="Food Network"
+       version="2.1.13"
+       provider-name="t1m">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Food Network Video Addon</summary>
+    <description lang="en">Play videos from the Food Network</description>
+    <disclaimer lang="en">Feel free to use this script. For information visit the wiki.</disclaimer>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>http://forum.kodi.tv/showthread.php?tid=224195</forum>
+    <website>www.foodnetwork.com</website>
+    <email></email>
+    <source>https://github.com/learningit/plugin.video.foodnetwork/</source>
+  </extension>
+</addon>
+
+<addon id="plugin.video.fox.news"
+       name="Fox News"
+       version="4.0.4"
+       provider-name="t1m,divingmule">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.beautifulsoup4" version="4.3.1"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Fox News</summary>
+        <description>
+            Watch videos from video.foxnews.com &amp; video.foxbusiness.com.
+        </description>
+        <platform>all</platform>
+        <language>en</language>
+        <forum>http://forum.xbmc.org/showthread.php?tid=57175</forum>
+        <email></email>
+        <source>https://github.com/learningit/plugin.video.fox.news</source>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <website>http://video.foxnews.com</website>
+    </extension>
+</addon>
+
+<addon id="plugin.video.gq"
+       name="GQ"
+       version="1.0.7"
+       provider-name="t1m">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">GQ Magazine HD Video Addon</summary>
+    <description lang="en">GQ (formerly Gentlemen's Quarterly) is an American monthly men's magazine focusing on fashion, style, and culture for men, through articles on food, movies, fitness, sex, music, travel, sports, technology, and books.</description>
+    <disclaimer lang="en">Feel free to use this script. For information visit the wiki.</disclaimer>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>http://forum.xbmc.org/showthread.php?tid=193395</forum>
+    <website>video.gq.com</website>
+    <email></email>
+    <source>https://github.com/learningit/plugin.video.gq/</source>
+  </extension>
+</addon>
+
+<addon id="plugin.video.hallmark"
+       name="Hallmark Channel"
+       version="1.0.1"
+       provider-name="t1m">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Hallmark Channel</summary>
+    <description lang="en">Hallmark Channel. The channel's programming is primarily targeted at families, and features a mix of television movies and miniseries, original and acquired television series, and lifestyle programs.</description>
+    <disclaimer lang="en">Feel free to use this script. For information visit the wiki.</disclaimer>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum></forum>
+    <website>http://www.hallmarkchanneleverywhere.com/</website>
+    <email></email>
+    <source>https://github.com/learningit/plugin.video.hallmark/</source>
+  </extension>
+</addon>
+
+<addon id="plugin.video.hgtv"
+       name="HGTV"
+       version="2.1.2"
+       provider-name="t1m">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">HGTV Video Addon</summary>
+    <description lang="en">Play videos from the HGTV Network</description>
+    <disclaimer lang="en">Feel free to use this script. For information visit the wiki.</disclaimer>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>http://forum.xbmc.org/showthread.php?tid=97018</forum>
+    <website>www.hgtv.com</website>
+    <email></email>
+    <source>https://github.com/learningit/plugin.video.hgtv/</source>
+  </extension>
+</addon>
+
+<addon id="plugin.video.i24News"
+       name="i24 News"
+       version="1.0.4"
+       provider-name="t1m">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.pyamf" version="0.6.2"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">i24News XBMC Addon</summary>
+    <description lang="en">i24News is an international 24-hour news and current affairs television channel based in Jaffa Port, Tel Aviv, Israel. It broadcasts in English, French and Arabic.</description>
+    <disclaimer lang="en">Feel free to use this script. For information visit the wiki.</disclaimer>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>http://forum.xbmc.org/showthread.php?tid=187224</forum>
+    <website>http://www.i24news.tv/en/</website>
+    <email></email>
+    <source>https://github.com/learningit/plugin.video.i24News</source>
+  </extension>
+</addon>
+
+<addon id="plugin.video.linktv"
+       name="LinkTV.org"
+       version="1.0.2"
+       provider-name="t1m">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">LinkTV</summary>
+    <description lang="en">Link TV broadcasts programs that engage, educate and activate viewers to become involved in the world.</description>
+    <disclaimer lang="en">Feel free to use this script. For information visit the wiki.</disclaimer>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum></forum>
+    <website>video.thinktv.org</website>
+    <email></email>
+    <source>https://github.com/learningit/plugin.video.linktv/</source>
+  </extension>
+</addon>
+
+<addon id="plugin.video.mediacorp"
+       name="Mediacorp Singapore"
+       version="1.5.3"
+       provider-name="t1m">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Mediacorp Singapore</summary>
+    <description lang="en">Mediacorp Singapore - Toggle.sg version. To display Chinese correctly, choose Arial Font under Settings-Appearance-Skin-Font</description>
+    <disclaimer lang="en">Feel free to use this script. For information visit the wiki.</disclaimer>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>http://forum.xbmc.org/showthread.php?tid=173754</forum>
+    <website>www.toggle.sg</website>
+    <email></email>
+    <source>https://github.com/learningit/plugin.video.mediacorp</source>
+  </extension>
+</addon>
+
+<addon id="plugin.video.metv"
+       name="MeTV"
+       version="1.4.1"
+       provider-name="t1m">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">MeTV Video Addon</summary>
+    <description lang="en">Chosen from a wide array of genres, the programs of Me-TV pay tribute to classic television. Comedies like The Mary Tyler Moore Show, I Love Lucy, The Honeymooners and The Bob Newhart Show. Dramas such as Perry Mason, Ironside, The Streets of San Francisco, The Rockford Files and Columbo great westerns like Gunsmoke, Bonanza, The Rifleman and The Big Valley and otherworldly classics like Star Trek, Lost In Space and The Twilight Zone</description>
+    <disclaimer lang="en">Feel free to use this script. For information visit the wiki.</disclaimer>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>http://forum.xbmc.org/showthread.php?tid=193014</forum>
+    <website>www.metvnetwork.com</website>
+    <email></email>
+    <source>https://github.com/learningit/plugin.video.metv/</source>
+  </extension>
+</addon>
+
+<addon id="plugin.video.myvevo"
+       name="VEVO"
+       version="2.0.11"
+       provider-name="t1m">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">VEVO Video Addon</summary>
+    <description lang="en">Watch music videos, artist videos, and original shows on VEVO and VEVO TV</description>
+    <disclaimer lang="en">Feel free to use this script. For information visit the wiki.</disclaimer>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991. Icons are made by Freepik from www.flaticon.com and are licensed under Creative Commons BY 3.0</license>
+    <forum>http://forum.kodi.tv/showthread.php?tid=223221</forum>
+    <website>www.vevo.com</website>
+    <email></email>
+    <source>https://github.com/learningit/plugin.video.myvevo/</source>
+  </extension>
+</addon>
+
+<addon id="plugin.video.npr"
+       name="NPR Music Videos"
+       version="1.0.5"
+       provider-name="t1m">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="plugin.video.youtube" version="4.4.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">NPR Music Video Addon</summary>
+    <description lang="en">NPR Music launched in November 2007 to present public radio music programming and original editorial content for music discovery. It is a project of National Public Radio, a privately and publicly funded non-profit membership media organization that serves as a national syndicator to public radio stations in the United States.</description>
+    <disclaimer lang="en">Feel free to use this script. For information visit the wiki.</disclaimer>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>http://forum.xbmc.org/showthread.php?tid=197118</forum>
+    <website>http://www.npr.org/music/</website>
+    <email></email>
+    <source>https://github.com/learningit/plugin.video.npr/</source>
+  </extension>
+</addon>
+
+<addon id="plugin.video.oxygen"
+       name="Oxygen"
+       version="1.0.4"
+       provider-name="t1m">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Oxygen Video Addon</summary>
+    <description lang="en">Oxygen Channel video addon.</description>
+    <disclaimer lang="en">Feel free to use this script. For information visit the wiki.</disclaimer>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>http://forum.kodi.tv/showthread.php?tid=224740</forum>
+    <website>now.oxygen.com</website>
+    <email></email>
+    <source>https://github.com/learningit/plugin.video.oxygen/</source>
+  </extension>
+</addon>
+
+<addon id="plugin.video.popcornflix"
+       name="Popcornflix"
+       version="5.0.10"
+       provider-name="t1m">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Popcornflix.com Video Addon</summary>
+    <description lang="en">Popcornflix offers a broad collection of great movies you can watch right now</description>
+    <disclaimer lang="en">Feel free to use this script. For information visit the wiki.</disclaimer>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>http://forum.xbmc.org/showthread.php?tid=198931</forum>
+    <website>http://www.popcornflix.com</website>
+    <email></email>
+    <source>https://github.com/learningit/plugin.video.popcornflix</source>
+  </extension>
+</addon>
+
+<addon id="plugin.video.portico.tv"
+       name="Portico.tv"
+       version="1.0.3"
+       provider-name="t1m">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Portico.TV Video Addon</summary>
+    <description lang="en">Portico TV delivers a variety of programming from producers such as Time, Cooking Light, People, Popular Science, Newsy, Rev3 and AP.</description>
+    <disclaimer lang="en">Feel free to use this script. For information visit the wiki.</disclaimer>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum></forum>
+    <website>http://www.portico.tv</website>
+    <email></email>
+    <source>https://github.com/learningit/plugin.video.portico.tv</source>
+  </extension>
+</addon>
+
+<addon id="plugin.video.rt"
+       name="Russia Today News"
+       version="1.9.4"
+       provider-name="t1m">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Russia Today News</summary>
+    <description lang="en">Russia Today News XBMC Plugin. RT presents round-the-clock news bulletins, documentaries, talk shows, and debates, as well as sports news and cultural programs on Russia aimed at the overseas news market. In 2011 it was the second most-watched foreign news channel in the U.S. after BBC World News, and the number one foreign station in five major U.S. urban areas in 2012</description>
+    <disclaimer lang="en">Feel free to use this script. For information visit the wiki.</disclaimer>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>http://forum.kodi.tv/showthread.php?tid=173448</forum>
+    <website>http:www.rt.com</website>
+    <email></email>
+    <source>https://github.com/learningit/plugin.video.rt</source>
+  </extension>
+</addon>
+
+<addon id="plugin.video.si"
+       name="Sports Illustrated"
+       version="1.4.5"
+       provider-name="t1m">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Sports Illustrated</summary>
+    <description lang="en">Sports Illustrated Online for XBMC. Sport Illustrated is the premier magazine for Sports. SI.com is a 24/7 sports news website delivers more than 150 original stories to users each week.  Coverage includes NFL, MLB, NHL, NBA, College Football, College Basketball, NASCAR, Golf, Boxing, Horse Racing, Soccer and Tennis.  SI Now provides new, in-depth interviews and commentary on sports events globally. The Swim Daily provides videos and interviews with the famous SI Swimsuit Issue Models.</description>
+    <disclaimer lang="en">Feel free to use this script. For information visit the wiki.</disclaimer>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>http://forum.xbmc.org/showthread.php?tid=179781</forum>
+    <website>http://www.si.com</website>
+    <email></email>
+    <source>https://github.com/learningit/plugin.video.si</source>
+  </extension>
+</addon>
+
+<addon id="plugin.video.smithsonian"
+       name="Smithsonian Channel"
+       version="1.0.7"
+       provider-name="t1m">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Smithsonian Video Addon</summary>
+    <description lang="en">Play 1080 HD videos from the Smithsonian Channel.</description>
+    <disclaimer lang="en">Feel free to use this script. For information visit the wiki.</disclaimer>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>http://forum.kodi.tv/showthread.php?tid=214784</forum>
+    <website>www.smithsonianchannel.com</website>
+    <email></email>
+    <source>https://github.com/learningit/plugin.video.smithsonian/</source>
+  </extension>
+</addon>
+
+<addon id="plugin.video.snagfilms"
+       name="Snagfilms"
+       version="1.0.9"
+       provider-name="t1m">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Snagfilms Video Addon</summary>
+    <description lang="en">SnagFilms offers a broad collection of great movies you can watch right now</description>
+    <disclaimer lang="en">Feel free to use this script. For information visit the wiki.</disclaimer>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum></forum>
+    <website>http://www.snagfilms.com</website>
+    <email></email>
+    <source></source>
+  </extension>
+</addon>
+
+<addon id="plugin.video.sonyliv"
+       name="Sony LIV"
+       version="1.0.9"
+       provider-name="t1m">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">SONY LIV</summary>
+    <description lang="en">SONY LIV - Watch your favourite Hindi Serial on Sony LIV</description>
+    <disclaimer lang="en">Feel free to use this script. For information visit the wiki.</disclaimer>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>http://forum.kodi.tv/showthread.php?tid=226091</forum>
+    <website>http://www.sonyliv.com/</website>
+    <email></email>
+    <source>https://github.com/learningit/plugin.video.sonyliv/</source>
+  </extension>
+</addon>
+
+<addon id="plugin.video.sprout"
+       name="Sprout"
+       version="1.0.9"
+       provider-name="t1m">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Sprout for Kids Video Addon</summary>
+    <description lang="en">The 24-hour preschool channel parents and kids share together. Sprout is home to trusted favorites like Sesame Street and Barney and Friends, plus innovative Sprout Originals such as The Sunny Side Up Show and The Good Night Show.</description>
+    <disclaimer lang="en">Feel free to use this script. For information visit the wiki.</disclaimer>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>http://forum.xbmc.org/showthread.php?tid=196085</forum>
+    <website>www.sproutonline.com</website>
+    <email></email>
+    <source>https://github.com/learningit/plugin.video.sprout/</source>
+  </extension>
+</addon>
+
+<addon id="plugin.video.sundance"
+       name="Sundance TV"
+       version="1.0.2"
+       provider-name="t1m">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Sundance TV</summary>
+    <description lang="en">Find the best in independent film, original series, blogs and original web content focusing on indie culture.</description>
+    <disclaimer lang="en">Feel free to use this script. For information visit the wiki.</disclaimer>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum></forum>
+    <website>http://www.sundance.tv/</website>
+    <email></email>
+    <source>https://github.com/learningit/plugin.video.sundance/</source>
+  </extension>
+</addon>
+
+<addon id="plugin.video.syfy"
+       name="Syfy"
+       version="1.0.6"
+       provider-name="t1m">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Syfy Now</summary>
+    <description lang="en">1080 videos from The Syfy Channel</description>
+    <disclaimer lang="en">Feel free to use this script. For information visit the wiki.</disclaimer>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>http://forum.kodi.tv/showthread.php?tid=224741</forum>
+    <website>www.syfy.com</website>
+    <email></email>
+    <source>https://github.com/learningit/plugin.video.syfy/</source>
+  </extension>
+</addon>
+
+<addon id="plugin.video.thinktv"
+       name="PBS ThinkTV"
+       version="1.0.18"
+       provider-name="t1m">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">PBS ThinkTV</summary>
+    <description lang="en">PBS ThinkTV is the most widely used non-profit informational resource in our community.</description>
+    <disclaimer lang="en">Feel free to use this script. For information visit the wiki.</disclaimer>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum></forum>
+    <website>video.thinktv.org</website>
+    <email></email>
+    <source>https://github.com/learningit/plugin.video.thinktv/</source>
+  </extension>
+</addon>
+
+<addon id="plugin.video.travel"
+       name="Travel Channel"
+       version="1.0.3"
+       provider-name="t1m">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Travel Channel</summary>
+    <description lang="en">Check out travel videos, shows, and guides on top travel destinations on Travel Channel</description>
+    <disclaimer lang="en">Feel free to use this script. For information visit the wiki.</disclaimer>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>http://forum.kodi.tv/showthread.php?tid=222429</forum>
+    <website>http://www.travelchannel.com/</website>
+    <email></email>
+    <source>https://github.com/learningit/plugin.video.travel/</source>
+  </extension>
+</addon>
+
+<addon id="plugin.video.tubitv"
+       name="tubi tv"
+       version="1.0.7"
+       provider-name="t1m">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">tubi tv</summary>
+    <description lang="en">Tubi TV has the largest library of FREE videos of hit and cult TV shows and films</description>
+    <disclaimer lang="en">Feel free to use this script. For information visit the wiki.</disclaimer>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>http://forum.kodi.tv/showthread.php?tid=223820</forum>
+    <website>http://www.tubitv.com/</website>
+    <email></email>
+    <source>https://github.com/learningit/plugin.video.tubitv/</source>
+  </extension>
+</addon>
+
+<addon id="plugin.video.tvo"
+       name="TV Ontario"
+       version="1.0.3"
+       provider-name="t1m">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">TV Ontario Videos</summary>
+    <description lang="en">TVO is Ontario's public educational media organization and a trusted source of interactive educational content that informs, inspires, and stimulates curiosity.</description>
+    <disclaimer lang="en">Feel free to use this script. For information visit the wiki.</disclaimer>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum></forum>
+    <website>tvo.org</website>
+    <email></email>
+    <source>https://github.com/learningit/plugin.video.tvo/</source>
+  </extension>
+</addon>
+
+<addon id="plugin.video.viewster"
+       name="Viewster"
+       version="2.0.1"
+       provider-name="t1m">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Viewster Video Addon</summary>
+    <description lang="en">Viewster offers a catalog of TV shows and movies that you don't find everywhere. Most of the content is free to watch online just by the click of a button.</description>
+    <disclaimer lang="en">Feel free to use this script. For information visit the wiki.</disclaimer>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>http://forum.xbmc.org/showthread.php?tid=200604</forum>
+    <website>http://www.viewster.com</website>
+    <email></email>
+    <source>https://github.com/learningit/plugin.video.viewster</source>
+  </extension>
+</addon>
+
+<addon id="plugin.video.wnbc"
+       name="WNBC Programs"
+       version="1.0.8"
+       provider-name="t1m">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">WNBC Programs</summary>
+    <description lang="en">WNBC Programs from the flagship NBC station in New York. Programs include: The Tonight Show, NBC News and NBC Classic TV.</description>
+    <disclaimer lang="en">Feel free to use this script. For information visit the wiki.</disclaimer>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum></forum>
+    <website>www.nbc.com</website>
+    <email></email>
+    <source>https://github.com/learningit/plugin.video.wnbc/</source>
+  </extension>
+</addon>
+
+<addon id="plugin.video.wral"
+       name="WRAL News and Weather"
+       version="1.0.5"
+       provider-name="t1m">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">WRAL News and Weather</summary>
+    <description lang="en">News and Weather from Raleigh, NC CBS affiliate WRAL. Get current CBS News, current and classic CBS programs.</description>
+    <disclaimer lang="en">Feel free to use this script. For information visit the wiki.</disclaimer>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>http://forum.kodi.tv/showthread.php?tid=222072</forum>
+    <website>www.wral.com</website>
+    <email></email>
+    <source>https://github.com/learningit/plugin.video.wral/</source>
+  </extension>
+</addon>
+
+<addon id="plugin.video.wsj"
+       name="The Wall Street Journal Live"
+       version="1.9.4"
+       provider-name="t1m">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">The Wall Street Journal Live</summary>
+    <description lang="en">The Wall Street Journal Live XBMC Plugin</description>
+    <disclaimer lang="en">Feel free to use this script. For information visit the wiki.</disclaimer>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>http://forum.xbmc.org/showthread.php?tid=172865</forum>
+    <website></website>
+    <email></email>
+    <source>https://github.com/learningit/plugin.video.wsj</source>
+  </extension>
+</addon>
+</addons>
