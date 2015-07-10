@@ -605,7 +605,7 @@
 
 <addon id="plugin.video.sonyliv"
        name="Sony LIV"
-       version="1.0.9"
+       version="1.0.10"
        provider-name="t1m">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
