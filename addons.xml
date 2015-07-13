@@ -555,7 +555,7 @@
 
 <addon id="plugin.video.smithsonian"
        name="Smithsonian Channel"
-       version="1.0.7"
+       version="1.0.8"
        provider-name="t1m">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -630,7 +630,7 @@
 
 <addon id="plugin.video.sprout"
        name="Sprout"
-       version="1.0.9"
+       version="1.0.10"
        provider-name="t1m">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -680,7 +680,7 @@
 
 <addon id="plugin.video.syfy"
        name="Syfy"
-       version="1.0.6"
+       version="1.0.7"
        provider-name="t1m">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
