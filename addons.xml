@@ -915,4 +915,21 @@
 		<platform>all</platform>
 	</extension>
 </addon>
+
+<addon id="script.USChannels"
+       name="My US Channels"
+       version="1.0.9"
+       provider-name="t1m">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.script"
+            library="default.py">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>My US Channels</summary>
+    <description>My US Channels with EPG</description>
+    <platform>all</platform>
+  </extension>
+</addon>
 </addons>
