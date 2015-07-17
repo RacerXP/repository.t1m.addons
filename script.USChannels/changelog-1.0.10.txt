@@ -1,0 +1,2 @@
+Version 1.0.7 init release
+Version 1.0.10 set 1080, fixed minutes calc
