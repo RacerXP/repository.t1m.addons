@@ -329,7 +329,7 @@
 
 <addon id="plugin.video.mediacorp"
        name="Mediacorp Singapore"
-       version="1.5.3"
+       version="1.5.4"
        provider-name="t1m">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
