@@ -730,7 +730,7 @@
 
 <addon id="plugin.video.syfy"
        name="Syfy"
-       version="1.0.8"
+       version="1.0.9"
        provider-name="t1m">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
