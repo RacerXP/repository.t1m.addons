@@ -855,7 +855,7 @@
 
 <addon id="plugin.video.tvokids"
        name="TV Ontario Kids"
-       version="1.0.3"
+       version="1.0.4"
        provider-name="t1m">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
