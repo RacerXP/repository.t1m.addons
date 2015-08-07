@@ -680,7 +680,7 @@
 
 <addon id="plugin.video.sonyliv"
        name="Sony LIV"
-       version="1.0.11"
+       version="1.0.13"
        provider-name="t1m">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
