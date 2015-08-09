@@ -855,7 +855,7 @@
 
 <addon id="plugin.video.tvo"
        name="TV Ontario"
-       version="1.0.6"
+       version="1.0.7"
        provider-name="t1m">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
