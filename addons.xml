@@ -2,7 +2,7 @@
 <addons>
 <addon id="plugin.video.abcfamily"
        name="ABC Family"
-       version="1.0.2"
+       version="1.0.3"
        provider-name="t1m">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -18,10 +18,10 @@
     <platform>all</platform>
     <language>en</language>
     <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-    <forum></forum>
+    <forum>http://forum.kodi.tv/showthread.php?tid=234462</forum>
     <website>www.abcfamily.com</website>
     <email></email>
-    <source></source>
+    <source>https://github.com/learningit/plugin.video.abcfamily</source>
   </extension>
 </addon>
 
@@ -930,7 +930,7 @@
 
 <addon id="plugin.video.wabc"
        name="WABC Programs"
-       version="1.0.1"
+       version="1.0.2"
        provider-name="t1m">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -946,7 +946,7 @@
     <platform>all</platform>
     <language>en</language>
     <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-    <forum></forum>
+    <forum>http://forum.kodi.tv/showthread.php?tid=234448</forum>
     <website>www.abc.com</website>
     <email></email>
     <source>https://github.com/learningit/plugin.video.wabc/</source>
