@@ -805,7 +805,7 @@
 
 <addon id="plugin.video.thinktv"
        name="PBS ThinkTV"
-       version="1.0.18"
+       version="1.0.19"
        provider-name="t1m">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
