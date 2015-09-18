@@ -251,31 +251,6 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.fyi"
-       name="fyi Network"
-       version="1.0.1"
-       provider-name="t1m">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">fyi Network</summary>
-    <description lang="en">fyi Network features lifestyle programming, with a mix of reality, culinary, home renovation and makeover series.</description>
-    <disclaimer lang="en">Feel free to use this script. For information visit the wiki.</disclaimer>
-    <platform>all</platform>
-    <language>en</language>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-    <forum></forum>
-    <website>http://www.fyi.tv</website>
-    <email></email>
-    <source>https://github.com/learningit/plugin.video.fyi/</source>
-  </extension>
-</addon>
-
 <addon id="plugin.video.gq"
        name="GQ"
        version="1.0.7"
@@ -454,7 +429,7 @@
 
 <addon id="plugin.video.metv"
        name="MeTV"
-       version="1.4.1"
+       version="1.4.2"
        provider-name="t1m">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
