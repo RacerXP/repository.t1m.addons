@@ -905,7 +905,7 @@
 
 <addon id="plugin.video.viewster"
        name="Viewster"
-       version="2.0.2"
+       version="2.0.3"
        provider-name="t1m">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
